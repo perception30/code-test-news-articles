@@ -2,7 +2,8 @@
   --primary: #ffffff;
   --secondary: #ffc107;
   --color: #000;
-  --font-family: 'Roboto', sans-serif;
+  --font-family: "Roboto", sans-serif;
+  --font-family-paragraph: "Inter", sans-serif;
   --default-font-size: 1.2rem;
   --content-border-bottom: 2px solid #d0cece;
   --content-div-h2-font-size: 1.3rem;
@@ -36,7 +37,7 @@ aside {
 }
 
 #container {
-  background: white;
+  background: var(--primary);
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1.4fr 0.3fr 0.3fr;
@@ -45,7 +46,7 @@ aside {
     "main content1"
     "main content2";
   grid-gap: 0.6rem;
-  font-family: "Inter", sans-serif;
+  font-family: var(--font-family-paragraph);
   font-size: var(--default-font-size);
   text-align: left;
   border: 3px solid orange;
@@ -59,7 +60,7 @@ aside {
 }
 
 #container p {
-  font-family: "Inter", sans-serif;
+  font-family: var(--font-family-paragraph);
   font-size: 1.1rem;
   font-weight: 400;
 }
