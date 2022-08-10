@@ -1,0 +1,22 @@
+{
+  "name": "code-test-news-articles",
+  "version": "1.0.0",
+  "description": "Senior code test",
+  "main": "index.js",
+  "repository": "git@github.com-perception30:perception30/code-test-news-articles",
+  "author": "kbaq30 <perception30@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start:server": "node server/api.js",
+    "start:client": "npm run start:server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.21.0",
+    "eslint-config-prettier": "^8.5.0",
+    "prettier": "^2.7.1"
+  }
+}

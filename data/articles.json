@@ -1,0 +1,32 @@
+{
+  "9b1b2483-51cb-42ac-bc3b-b280bda5422d": [
+    {
+      "title": "LIVE: Greg Inglis to announce NRL retirement",
+      "imageurl": "https://i.ibb.co/y64px27/httpforum-whitelinefever-comthreadsgreg-inglis-chases-first-official-nrl-title-10933.png",
+      "intro": "Greg Inglis has arrived at South Sydney headquarters and will front a media conference later this morning to announce his retirement from rugby league.",
+      "hightedWords": "RABBITOHS STAR",
+      "published": 2,
+      "newsType": "main"
+    },
+    {
+      "title": "Opal Tower units still closed as work only approved now",
+      "imageurl": "https://i.ibb.co/JH26sq6/opal-tower.png",
+      "intro": "People are still unable to move back into almost half the apartments in Opal Tower more than three months after cracks appered in the trouble-plagued building and final rectification works have only just been given the green light.",
+      "hightedWords": "EXCLUSIVE",
+      "published": 3,
+      "newsType": "secondary"
+    },
+    {
+      "title": "One Nation support has crashed: Newspoll",
+      "imageurl": "https://sl.sbs.com.au/public/image/file/344b1a12-1f56-4fc9-81f3-ac8de6b0ac9f/crop/16x9_large",
+      "published": 4,
+      "newsType": "content1"
+    },
+    {
+      "title": "Two fake cops robbed Sydney exchange shop",
+      "imageurl": "https://prod.static9.net.au/fs/15f54180-5cfa-4399-847a-a1d28ed585d6",
+      "published": 5,
+      "newsType": "content2"
+    }
+  ]
+}
