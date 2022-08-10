@@ -1,5 +1,8 @@
 // CONSTANTS
-const API = "https://h2bvqmupci.us-east-1.awsapprunner.com";
+let API = "https://h2bvqmupci.us-east-1.awsapprunner.com";
+if (location.hostname === "localhost" || location.hostname === "127.0.0.1") {
+  API = "http://localhost:8080";
+}
 const COLLECTIONS_ENDPOINT = "/collections";
 
 // when DOM is ready, fetch collections and render them
