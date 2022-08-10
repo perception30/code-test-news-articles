@@ -1,5 +1,5 @@
 // CONSTANTS
-const API = "http://localhost:8080";
+const API = "https://h2bvqmupci.us-east-1.awsapprunner.com";
 const COLLECTIONS_ENDPOINT = "/collections";
 
 // when DOM is ready, fetch collections and render them
