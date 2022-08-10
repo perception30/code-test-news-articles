@@ -1,5 +1,5 @@
 // CONSTANTS
-const API = "http://localhost:3000";
+const API = "http://localhost:8080";
 const COLLECTIONS_ENDPOINT = "/collections";
 
 // when DOM is ready, fetch collections and render them

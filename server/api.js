@@ -3,6 +3,8 @@ const fs = require("fs");
 
 const app = express();
 
+const PORT = 8080;
+
 app.get("/collections", (req, res) => {
   const collections = JSON.parse(
     fs.readFileSync("./data//collections.json")
@@ -30,6 +32,6 @@ app.use((req, res) => {
   res.status(404).send(`Endpoint path does not exist: ${req.path}`);
 });
 
-app.listen(3000, () => {
-  console.log("Server listening on port 3000");
+app.listen(PORT, () => {
+  console.log(`Server listening on port ${PORT}`);
 });

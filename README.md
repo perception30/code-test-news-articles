@@ -6,6 +6,21 @@
 
 #Project Description
 
+To install dependencies:
+
+```bash
+npm install
+```
+
+To run the application:
+
+```bash
+npm start
+```
+
+Application is running on port 8080.
+View the application at http://localhost:8080/
+
 ## Senior Code Test
 You will be tested on your knowledge of HTML, JS and CSS, It's encouraged to keep the solution as lightweight and simple as possible.
 Expected time for this test should be around 2 hours.

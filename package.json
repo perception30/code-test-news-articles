@@ -7,8 +7,7 @@
   "author": "kbaq30 <perception30@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start:server": "node server/api.js",
-    "start:client": "npm run start:server",
+    "start": "node server/api.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
